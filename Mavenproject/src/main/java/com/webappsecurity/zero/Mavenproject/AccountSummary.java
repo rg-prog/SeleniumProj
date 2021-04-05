@@ -9,7 +9,7 @@ public class AccountSummary {
 	//Update and save
 	@FindBy(linkText="Transfer Funds")
 	private WebElement transferFunds;
-	
+	//Again changed 
 	public AccountSummary(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
