@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class AccountSummary {
-	
+	//Update and save
 	@FindBy(linkText="Transfer Funds")
 	private WebElement transferFunds;
 	
